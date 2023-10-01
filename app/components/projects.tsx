@@ -57,7 +57,7 @@ export default function OLYMPUSCARD() {
 
     return (
         <div className = {`flex flex-row active ${fade ? 'opacity-0 transition-all duration-500' : 'transition-all duration-500'}`}>
-            <div className={`w-[24rem] md:w-[24rem] h-[39rem] bg-light-grey ml-auto mr-4 -mt-5 rounded-[30px] active ${show ? 'transform translate-y-[-5%] transition-transform duration-1000' : 'sticky top-[20px] z-1 transform translate-y-[20%] transition-transform duration-1000 bg-beige'}`}>
+            <div className={`w-[24rem] md:w-[24rem] h-[39rem] ml-auto mr-4 -mt-5 rounded-[30px] active ${show ? 'bg-light-grey transform translate-y-[-5%] transition-transform duration-1000' : 'sticky top-[20px] z-1 transform translate-y-[20%] transition-transform duration-1000 bg-beige'}`}>
                 { show ? (
                     <>
                 <div className='flex flex-col'>
@@ -72,7 +72,7 @@ export default function OLYMPUSCARD() {
 
                 </div>
 
-            <div className={`w-[24rem] md:w-[24rem] h-[39rem] bg-light-grey mr-auto mt-20 rounded-[30px] active ${!show ? 'transform translate-y-[-20%] transition-transform duration-1000' : 'sticky top-[20px] z-1 transition-transform duration-1000 bg-beige'}`}>
+            <div className={`w-[24rem] md:w-[24rem] h-[39rem] mr-auto mt-20 rounded-[30px] active ${!show ? 'bg-light-grey transform translate-y-[-20%] transition-transform duration-1000' : 'sticky top-[20px] z-1 transition-transform duration-1000 bg-beige'}`}>
                 { !show ? (
                     <>
                 <div className='flex flex-col items-end mr-8'>
