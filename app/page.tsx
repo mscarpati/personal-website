@@ -7,7 +7,6 @@ import Ms from './components/ms'
 import Virtu from './components/virtu'
 import Contact from './components/contact'
 import Placeholder from './components/placeholder'
-import All from './components/all'
 
 /* todos
 
