@@ -8,6 +8,7 @@ import Virtu from './components/virtu'
 import Contact from './components/contact'
 import Placeholder from './components/placeholder'
 
+
 /* todos
 
 - DONE: clean up images - proper sizing and stretching/compressing
@@ -27,16 +28,18 @@ import Placeholder from './components/placeholder'
 export default function Home() {
 
   return (
-    <main className='flex min-h-screen bg-main flex-col'>
+    <main className='flex min-h-screen bg-main bg-cover flex-col'>
       <Menu />
       <Placeholder />
-      <div className='ml-20 mt-20 justify-self-center mb-20'>
+      <div className = 'mt-20 mb-20 ml-20 justify-self-center'>
+      
         <p className='text-2xl font-khula text-white'>Hi, my name is</p>
         <h1 className='mt-3 text-6xl font-libre text-white'>Mia Scarpati.</h1>
-        <div className='w-[30rem] md:w-[35rem]'>
+        <div className='w-[20rem] md:w-[35rem]'>
           <p className='mt-3 text-2xl font-khula text-white leading-relaxed'>I’m a computer science & statistics student at Northwestern University passionate about building innovative solutions to challenging problems.</p>
         </div>
       </div>
+      
 
 
       <About />
