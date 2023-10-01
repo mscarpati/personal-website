@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Libre_Caslon_Text";
+  src: local("Libre_Caslon_Text"),
+        url("../public/fonts/Libre_Caslon_Text/LibreCaslonText-Bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Khula";
+  src: local("Khula"),
+        url("../public/fonts/Khula/Khula-Regular.ttf") format('truetype');
+}
+
+.khula {
+  font-family: "Khula", sans-serif;
+}
+
+.libre {
+  font-family: "Libre_Caslon_Text", serif;
+}
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
