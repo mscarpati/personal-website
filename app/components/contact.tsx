@@ -9,27 +9,17 @@ export default function CONTACT() {
             <div className = 'w-full h-10 bg-main rounded-[30px] items-center justify-center'>
                
                </div>
-               { !isMobile ? (
-            <div className='align-left ml-auto mr-auto mt-12'>
+           
+            <div className='align-left ml-10 mr-auto mt-12'>
                 <div className='flex flex-row justify-center items-center gap-2'>
-                    <h1 className='text-white text-4xl font-libre ml-3'>Check out my resume </h1>
-                    <a href='https://drive.google.com/file/d/1-eOHKa2Sq3ifU_3QRK9Ns3lcqSqagB1u/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
-                        <h1 className='text-white text-4xl font-libre underline hover:text-opacity-50'>here.</h1>
+                    <h1 className='text-white text-4xl font-libre ml-3'>Check out my resume {''}
+                    <a href='https://drive.google.com/file/d/1-eOHKa2Sq3ifU_3QRK9Ns3lcqSqagB1u/view?usp=sharing' target='_blank' rel='noopener noreferrer' className='underline hover:text-opacity-50'>
+                        here.
                     </a>
+                    </h1>
                 </div>
             </div>
-               ) : (
-
-                <div className='align-left ml-3 mr-auto mt-12'>
-                <div className='flex flex-col items-start gap-2'>
-                    <h1 className='text-white text-4xl font-libre ml-3'>Check out my resume</h1>
-                    <a href='https://drive.google.com/file/d/1-eOHKa2Sq3ifU_3QRK9Ns3lcqSqagB1u/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
-                        <h1 className='text-white text-4xl font-libre underline hover:text-opacity-50'>here.</h1>
-                    </a>
-                </div>
-            </div>
-
-               )}
+              
 
             <div className='flex flex-row gap-4 mt-2'>
                 <a href='https://www.linkedin.com/in/mia-scarpati-20463b197/' target='_blank' rel='noopener noreferrer'>

@@ -15,6 +15,7 @@ const config: Config = {
         'white' : '#FFFFFF',
         'dark' : '#25212F',
         'dark-grey' : '#9e9e9e',
+        'main-light' : '#2e2a4775',
       },
       fontFamily: {
         'khula' : ['Khula', 'sans-serif'],
