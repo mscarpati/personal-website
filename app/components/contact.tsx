@@ -13,7 +13,7 @@ export default function CONTACT() {
             <div className='align-left ml-10 mr-auto mt-12'>
                 <div className='flex flex-row justify-center items-center gap-2'>
                     <h1 className='text-white text-4xl font-libre ml-3'>Check out my resume {''}
-                    <a href='https://drive.google.com/file/d/1RQ1Tegiv7JyHqoTJVQnhf-3_yi-CSW8Y/view?usp=share_link' target='_blank' rel='noopener noreferrer' className='underline hover:text-opacity-50'>
+                    <a href='https://drive.google.com/file/d/1N1TdMWmfPabv1q72hzn5LZZTcqNk86y_/view?usp=share_link' target='_blank' rel='noopener noreferrer' className='underline hover:text-opacity-50'>
                         here.
                     </a>
                     </h1>
