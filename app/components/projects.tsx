@@ -79,7 +79,7 @@ export default function OLYMPUSCARD() {
                     </a>
                     <h1 className='ml-7 mt-6 text-5xl font-libre text-main'>Olympus</h1>
                 </div>
-                <p className='ml-8 my-5 mr-10 text-xl font-khula text-main leading-relaxed'>Olympus is a mobile fitness app designed for weightlifters, by weightlifters. As a founding member of the team and gym rat myself, I originally joined Olympus to help with the brand vision and product roadmap. In January, I transitioned to a software engineering role and was responsible for building out a key arm of the workout tracking functionality. Check out where we’re at now at our website, linked in our logo at the top of this card.</p>
+                <p className='ml-8 my-5 mr-10 text-xl font-khula text-main leading-relaxed'>Olympus is a mobile fitness app designed for weightlifters, by weightlifters. As a founding member of the team and gym rat myself, I originally joined Olympus to help with the brand vision and product roadmap. Early in 2023, I transitioned to a software engineering role and have been a full-stack developer for the mobile and web apps since. Check out where we’re at now at our website, linked in our logo at the top of this card.</p>
                 </>
                 ) : null}
 
@@ -95,7 +95,11 @@ export default function OLYMPUSCARD() {
                     <h1 className='mt-6 text-5xl font-libre text-main text-right'>Stock Price Predictor</h1>
 
                 </div>
-                <p className='ml-7 my-5 mr-10 text-xl font-khula text-main text-right leading-relaxed'>My first experience using any machine learning tools, I built a stock price predictor using an LSTM model. This project inspired me to take Northwestern’s Machine Learning course this coming winter as well as explore the use of ML in trading strategies. I’m fascinated by the math that underlies ML and look forward to working with more than just “from keras.layers import LSTM” in a few months.</p>
+                <p className='ml-7 my-5 mr-10 text-xl font-khula text-main text-right leading-relaxed'>
+                    My first experience using any machine learning tools, I built a stock price predictor using an LSTM model. 
+                    I gained familiarity with data analysis tools I would later go on to use during my internship at a leading trading firm.
+                    Check out the Jupyter notebook on my GitHub (linked above).
+                </p>
                 </>
                 ) : null}
             </div>
@@ -124,7 +128,7 @@ export default function OLYMPUSCARD() {
                     <h1 className='mt-6 text-5xl font-libre text-main text-right'>Stock Price Predictor</h1>
 
                 </div>
-                <p className='ml-7 my-5 mr-10 text-xl font-khula text-main text-right leading-relaxed'>My first experience using any machine learning tools, I built a stock price predictor using an LSTM model. This project inspired me to take Northwestern’s Machine Learning course this coming winter as well as explore the use of ML in trading strategies. I’m fascinated by the math that underlies ML and look forward to working with more than just “from keras.layers import LSTM” in a few months.</p>
+                <p className='ml-7 my-5 mr-10 text-xl font-khula text-main text-right leading-relaxed'>My first experience using any machine learning tools, I built a stock price predictor using an LSTM model. Check out the Jupyter Notebook, linked above.</p>
               
             </div>
                 </div>
